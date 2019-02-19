@@ -1,6 +1,5 @@
-    # 10 de Octubre
-# Control del cuello implementando clases
-# basado en el codigo de PAC9685.py y PAC4242.py de Mr. Zafra y Hermes
+# 19 de Febrero, Ignacio Rodriguez
+# Control del cuello y los okos de Hidalgo
 
 from __future__ import division
 import time
@@ -14,9 +13,9 @@ pwm.set_pwm_freq(f)
     
 ########   Neck servos
 
-alpha = Servo(0, "Alpha", 2100, 1100) 
-bravo = Servo(1, "Bravo", 1100, 2100)
-charlie = Servo(2, "Charlie", 700, 2550)
+alpha = Servo(0, "Alpha", 220, 425) #down, top middle = 
+bravo = Servo(1, "Bravo", 400, 230) #down, top
+charlie = Servo(2, "Charlie", 550, 120) #left, right
 
 ######## Eye servos
 
